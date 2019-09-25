@@ -1,0 +1,153 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+/* New part Start*/
+
+#menu ul li a::after
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-top: 2px solid #FF4500;
+	border-bottom: 2px solid #FF4500;
+	transform: scaleY(1);
+	opacity: 0;
+	transition: all 0.5s;
+	box-sizing: border-box;
+}
+#menu ul li a:hover::after
+{
+	transform: scaleY(1);
+	opacity: 1;
+}
+.#menu ul li a::before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	
+	transform: scale(0);
+	transition: all 0.7s;
+	z-index: -1;
+}
+#menu ul li a:hover::before
+{
+	transform: scale(0.9);
+}
+/*  */
+
+
+body
+{
+	background-color: #D8D8D8;
+}
+
+
+/* MENU PAGE */
+#main
+{
+	margin: auto;
+	height: 100%
+	width: 100%;
+}
+
+#menu ul
+{
+	list-style: none;
+}
+
+#menu ul li
+{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	width: 180.40px;
+	font-size: 15px;
+	position: relative;
+	background-color: #ABB2B9;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 0px;
+}
+
+#menu ul li a
+{
+	text-decoration: none;
+	display: block;
+	color: #212F3D;
+}
+
+#menu ul li a:hover
+{
+	background-color: #FFF8DC;
+}
+
+#menu ul ul
+{
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover >ul
+{
+	display: block;
+}
+
+
+/*SUB-MENU PAGE*/
+#menu ul ul ul
+{
+	margin-left: 180px;
+	top: 0px;
+}
+
+#text1
+{
+	margin-left: 15px;
+	color: #403A3A;
+	font-family: 'Poppins', sans-serif;
+}
+
+#text2
+{
+	margin-left: 30px;
+	color: #403A3A;
+	text-align: justify;
+	font-family: 'Poppins', sans-serif;
+}
+
+#Bangladesh_Parliament
+{
+	margin-left: 15px;
+
+
+}
+
+#Jatiya_Sangsad_Bhaban
+{
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

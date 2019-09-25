@@ -1,0 +1,64 @@
+/*FOOTER PART*/
+
+
+#footer
+{
+	height: 250px;
+	background-color: #ABB2B9;
+	font-family: 'Poppins', sans-serif;
+}
+
+.link
+{
+	float: left;
+}
+
+.link a
+{
+	text-decoration: none;
+	color:#212F3D;
+	
+}
+
+
+.link a:hover
+{
+	text-decoration: underline;
+
+}
+
+.link a:visited
+{
+	color: #2E2EFE;
+}
+
+#develop_design
+{
+	margin-left: 250px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.useful_link
+{
+	font-family: 'Poppins', sans-serif;
+}
+
+.footer_link
+{
+	font-size: 15px;
+	 font-family: 'Poppins', sans-serif;
+}
+
+#left_link
+{
+	margin-left: 30px;
+}
+
+#right_link
+{
+	float: right;
+	margin-right: 30px;
+}
+
+
+/*END FOOTER PART*/

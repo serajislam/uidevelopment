@@ -1,0 +1,25 @@
+/*ABOUT BANGLADESH HISTORY PAGE*/
+
+#About_Bangladesh_History
+{
+	margin:auto;
+	height: 100%;
+	width: 100%;
+}
+
+#bd_history_header
+{
+	margin-left: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.bd_history_text
+{
+	margin-left: 30px;
+	text-align: justify;
+	margin-right: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: #212F3D;
+	font-size: 15px;
+}
+/*END ABOUT BANGLADESH HISTORY PAGE*/

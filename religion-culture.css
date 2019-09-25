@@ -1,0 +1,46 @@
+#religon_main_page
+{
+	margin:auto;
+	height: 100%;
+	width: 100%;
+}
+
+.header
+{
+
+	margin-left: 15px;
+	color: #212F3D;
+	font-family: 'Poppins', sans-serif;
+}
+
+.religion_cultute_text
+{
+	font-family: 'Poppins', sans-serif;
+	margin-right: 30px;
+	color: #212F3D;
+	text-align: justify;
+	margin-left: 30px;	
+	font-size: 15px;
+}
+
+.eid_image
+{
+	float: left;
+	margin-left: 20px;
+}
+
+.eid_food
+{
+	
+	margin-right: 20px;
+	float: right;
+}
+#eid_text
+{
+	
+	font-family: 'Poppins', sans-serif;
+	text-align: justify;
+	margin-left: 35px;
+	font-size: 15px;
+	
+}

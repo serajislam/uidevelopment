@@ -1,0 +1,78 @@
+/*ABOUT BANGLADESH NATIONAL ANTHEM PAGE*/
+#national_anthem_main_page
+{
+	margin: auto;
+	height: 100%;
+	width: 100%;
+}
+
+
+.anthem_header
+{
+	
+	margin-left: 15px;
+	color: #212F3D;
+	font-family: 'Poppins', sans-serif;
+}
+
+#anthem_text
+{
+	font-family: 'Poppins', sans-serif;
+	margin-left: 30px;
+	color: #212F3D;
+	text-align: justify;
+	font-size: 15px;	
+}
+
+.anthem_bangla
+{
+	margin-left: 30px;
+	color: #212F3D;
+	font-family: 'Poppins', sans-serif;
+}
+.anthem
+{
+	float: left;
+}
+
+
+
+#middle_header
+{
+	margin-left: 90px;
+}
+
+#middle_anthem
+{
+	margin-left: 105px;
+	font-size: 15px;
+	text-align: justify;
+	font-family: 'Poppins', sans-serif;
+}
+#right_header
+{
+	margin-left: 150px;
+}
+#right_side_anthem
+{
+	margin-left: 165px;
+	text-align: justify;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.writer
+{
+	
+	margin-right: 15px;
+	float: right;
+}
+#text
+{
+	
+	font-family: 'Poppins', sans-serif;
+	text-align: justify;
+	margin-left: 30px;
+	font-size: 15px;
+	
+}
